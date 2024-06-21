@@ -117,8 +117,8 @@ body {
     margin-bottom: 40px;
 }
 
-.image::after {
-    margin-bottom: 75px;
+.image:last-of-type {
+    margin-bottom: 50px;
 }
 
 .image:hover {
@@ -133,4 +133,11 @@ body {
 .figcap-hosted-by {
     font-size: 0.9rem;
     color: grey;
+}
+
+#PE-header {
+    padding-left: 25px;
+    font-size: 2rem;
+    font-weight: 450;
+    margin-bottom: 30px;
 }
