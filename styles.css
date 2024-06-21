@@ -14,6 +14,8 @@ body {
 
 #fixed-head {
     position: fixed;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
 }
 
 #searchbar {
@@ -37,6 +39,14 @@ body {
     padding-left: 40px;
 }
 
+#search-text img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
 #where-to {
     font-weight: 500;
     font-size: 0.8rem;
@@ -49,4 +59,33 @@ body {
 
 .search-dot{
     font-size: 0.5rem
+}
+
+#iconflex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#iconflex figcaption {
+    font-size: 10px;
+}
+
+#iconflex img {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.navicons {
+    display: inline-block;
+    text-align: center;
+    color: grey;
+    margin-top: 10px;
+}
+
+.navicons:hover {
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 7px;
+    cursor: pointer;
+    margin-bottom: -10px;
 }
