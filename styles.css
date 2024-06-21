@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+#page {
+    width: 320px;
+    max-width: 425px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Cereal, Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+#fixed-head {
+    position: fixed;
+}
+
+#searchbar {
+    margin: 0px auto;
+    max-width: 300px;
+    max-height: 40px;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow:0px 3px 15px 0px rgb(207, 205, 205);
+    border: 1px transparent black;
+    line-height: 16px;
+}
+
+#searchbar:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#search-text {
+    padding-left: 40px;
+}
+
+#where-to {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+#anywhere {
+    font-size: 0.6rem;
+    color: grey;
+}
+
+.search-dot{
+    font-size: 0.5rem
+}
