@@ -141,3 +141,11 @@ body {
     font-weight: 450;
     margin-bottom: 30px;
 }
+
+#support {
+    border-top: 1px solid grey;
+}
+
+#footer-section {
+    background-color: grey;
+}
