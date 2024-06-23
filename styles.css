@@ -13,13 +13,14 @@ body {
 
 #fixed-head {
     position: fixed;
-    border-bottom: 1px transparent grey;
-    box-shadow: 0px 5px 5px -5px grey;
+    border-bottom: 1px transparent #dddddd;
+    box-shadow: 0px 5px 5px -5px #dddddd;
     padding-bottom: 10px;
     min-width: 425px;
     height: 130px;
     background-color: #fff;
     top: 0px;
+
 }
 
 #searchbar {
@@ -59,11 +60,13 @@ body {
 
 #anywhere {
     font-size: 0.75rem;
-    color: grey;
+    color: #6a6a6a;
+    font-weight: 300;
 }
 
 .search-dot{
-    font-size: 0.5rem
+    font-size: 8px;
+    vertical-align: calc(1.5px);
 }
 
 #iconflex {
@@ -72,7 +75,8 @@ body {
 }
 
 #iconflex figcaption {
-    font-size: 0.78rem;
+    font-size: 0.7rem;
+    font-weight: 500;
 }
 
 #iconflex img {
@@ -82,12 +86,12 @@ body {
 
 .navicons {
     text-align: center;
-    color: grey;
+    color: #6a6a6a;
     margin-top: 15px;
 }
 
 .navicons:hover {
-    color: black;
+    color: #222222;
     border-bottom: 2px solid black;
     padding-bottom: 10px;
     cursor: pointer;
@@ -128,11 +132,13 @@ body {
 .image figcaption {
     padding-top: 10px;
     line-height: 1.3rem;
+    color: #222222;
 }
 
 .figcap-hosted-by {
     font-size: 0.9rem;
-    color: grey;
+    font-weight: 300;
+    color: #6a6a6a;
 }
 
 #PE-header {
@@ -142,10 +148,87 @@ body {
     margin-bottom: 30px;
 }
 
-#support {
-    border-top: 1px solid grey;
+#footer-section {
+    background-color: #f7f7f7;
+    width: 425px;
+    margin: 0 auto;
+    padding: 0 25px;
+    border-top: 1px solid #dddddd;
 }
 
-#footer-section {
-    background-color: grey;
+hr {
+    border: 0.5px solid #dddddd
+}
+
+#symbol {
+    margin-left: -1px;
+}
+
+#english {
+    padding-left: 5px;
+}
+
+#gbp {
+    padding-left: 20px
+}
+
+#english-flex {
+    display: flex;
+    align-items: center;
+}
+
+.english {
+    padding-bottom: 5px;
+}
+
+.inline {
+    display: inline;
+}
+
+h1 {
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #222222;
+    padding-top: 15px;
+}
+
+h2 {
+    font-size: 0.85rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+h2:last-of-type {
+    padding-bottom: 15px;
+}
+
+h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+h4 {
+    margin-top: 6px;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+#last {
+    line-height: 1.6;
+    margin-top: -15px;
+}
+
+.underline:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+figcaption {
+    font-weight: 500;
+    font-size: 0.95rem;
 }
